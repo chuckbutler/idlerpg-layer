@@ -1,0 +1,15 @@
+name: idlerpg
+summary: IdleRPG for Slack
+maintainers:
+    - Charles Butler <charles.butler@ubuntu.com>
+description: |
+  deliveres IdleRPG in an application container to run on your favorite Slack
+  domain through the IRC gateway.
+tags:
+  - chat
+  - amusement
+  - bot
+subordinate: false
+payloads:
+  slackbot:
+    type: docker

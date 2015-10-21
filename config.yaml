@@ -1,0 +1,29 @@
+options:
+  slackserver:
+    type: string
+    default:
+    description: Slack IRC Gateway address
+  slackpassword:
+    type: string
+    default:
+    description: Slack IRC Password
+  botnick:
+    type: string
+    default:
+    description: Nickname for the Bot
+  botname:
+    type: string
+    default:
+    description: Bots Username
+  botrealname:
+    type: string
+    default:
+    description: Bots Real Name
+  botchan:
+    type: string
+    default: '#idlerpg'
+    description: Channel to place the Bot
+  botowner:
+    type: string
+    default:
+    description: Username for the bots owner
